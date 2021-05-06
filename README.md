@@ -6,4 +6,4 @@ A simple Command Line Interface written in Go.
 
 The Cli Go is based on mithellh/cli library.
 
-    go install github.com/mitchellh/cli@v1.1.2
+    go get github.com/mitchellh/cli@v1.1.2
