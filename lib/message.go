@@ -10,15 +10,16 @@ func (m *Message) Help() string {
 }
 
 func (m *Message) Run(args []string) int {
+	println("cligo message")
+	println("")
+	println("Available commands are:")
+	println("\tdefault\t\t\tGet the default message")
+	println("\tspecial --id [id]\tGet the special message for the ID=id")
 	return 0
 }
 
 func (m *Message) Synopsis() string {
-	return "Synopsis"
-}
-
-func (m *Message) Error() string {
-	return "Message Error"
+	return "Get a default or a special message"
 }
 
 func NewMessage(message string) *Message {

@@ -33,3 +33,15 @@ MacOS & Linux:
 Windows:
 
     bin\cligo.exe [args]
+
+#### Dependencies
+
+This software is based on Mitchell CLI
+
+    https://pkg.go.dev/github.com/mitchellh/cli
+
+Posener Complete
+
+    https://pkg.go.dev/github.com/posener/complete
+
+
