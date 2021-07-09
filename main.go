@@ -8,6 +8,7 @@ package main
 
 import (
 	. "github.com/guildenstern70/cligo/lib"
+	"github.com/guildenstern70/cligo/lib/termcolor"
 	"github.com/mitchellh/cli"
 	"log"
 	"os"
@@ -22,6 +23,8 @@ func messageFactory() (cli.Command, error) {
 func main() {
 	c := cli.NewCLI("cligo", "0.0.1")
 	c.Args = os.Args[1:]
+	println(termcolor.Purple + "cligo" + termcolor.Reset)
+	println("")
 
 	c.Commands = map[string]cli.CommandFactory{
 		"message": messageFactory,
