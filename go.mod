@@ -1,3 +1,9 @@
+//
+// CliGo Project
+// Copyright (c) 2021 Alessio Saltarin
+// MIT License
+//
+
 module github.com/guildenstern70/cligo
 
 go 1.16

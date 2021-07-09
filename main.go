@@ -1,3 +1,9 @@
+/*
+ * CliGo Project
+ * Copyright (c) 2021 Alessio Saltarin
+ * MIT License
+ */
+
 package main
 
 import (
